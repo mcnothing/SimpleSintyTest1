@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 2563204237030823328}
   - component: {fileID: 1853026871422060240}
   - component: {fileID: 2259540941166036061}
+  - component: {fileID: 4787507016550084205}
   m_Layer: 10
   m_Name: PlayerDemon
   m_TagString: Player
@@ -684,6 +685,40 @@ MonoBehaviour:
   TargetDamageResistanceProcessor: {fileID: 0}
   TargetAnimator: {fileID: 0}
   DisableAnimatorLogs: 1
+--- !u!114 &4787507016550084205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785735675716775739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b56d00552d6cd44b46000232e9d83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  PlayerID: Player1
+  MainInventoryName: PlayerMainInventory
+  WeaponInventoryName: PlayerWeaponInventory
+  HotbarInventoryName: 
+  InventoryTransform: {fileID: 0}
+  WeaponRotationMode: 0
+  AutoPickItems: []
+  AutoPickOnlyIfMainInventoryIsEmpty: 0
+  AutoEquipWeaponOnStart: {fileID: 0}
+  AutoEquipOnlyIfMainInventoryIsEmpty: 0
+  AutoEquipOnlyIfEquipmentInventoryIsEmpty: 0
+  AutoEquipOnRespawn: 1
+  CharacterHandleWeapon: {fileID: 0}
 --- !u!1001 &3654945675103228027
 PrefabInstance:
   m_ObjectHideFlags: 0

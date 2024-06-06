@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 7690967869422119778}
   - component: {fileID: 5257787274519059138}
   - component: {fileID: 8743987107810681552}
+  - component: {fileID: -3423448418534955270}
   m_Layer: 10
   m_Name: PlayerMonk
   m_TagString: Player
@@ -558,7 +559,7 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 100
   Invulnerable: 0
-  InitialHealth: 10
+  InitialHealth: 100
   MaximumHealth: 100
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
@@ -629,6 +630,40 @@ MonoBehaviour:
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
   CurrentWeapon: {fileID: 0}
+--- !u!114 &-3423448418534955270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6598359678213936104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b56d00552d6cd44b46000232e9d83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  PlayerID: Player1
+  MainInventoryName: PlayerMainInventory
+  WeaponInventoryName: PlayerWeaponInventory
+  HotbarInventoryName: 
+  InventoryTransform: {fileID: 0}
+  WeaponRotationMode: 0
+  AutoPickItems: []
+  AutoPickOnlyIfMainInventoryIsEmpty: 0
+  AutoEquipWeaponOnStart: {fileID: 0}
+  AutoEquipOnlyIfMainInventoryIsEmpty: 0
+  AutoEquipOnlyIfEquipmentInventoryIsEmpty: 0
+  AutoEquipOnRespawn: 0
+  CharacterHandleWeapon: {fileID: 8743987107810681552}
 --- !u!1 &6645807527525275087
 GameObject:
   m_ObjectHideFlags: 0
